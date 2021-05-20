@@ -3,7 +3,7 @@
 
 def key_for_min_value(hash)
   lowest_key = nil
-  lowest_value = nil
+  lowest_value = Float::INFINITY
   if hash == {}
     nil
   else
