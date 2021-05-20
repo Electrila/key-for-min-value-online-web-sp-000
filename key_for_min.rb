@@ -3,5 +3,9 @@
 
 def key_for_min_value(hash)
   lowest_key = nil
-  lowest_value = nil
+  lowest_value = 0
+  if hash == {}
+    nil
+  else
+    
 end
